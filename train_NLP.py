@@ -98,7 +98,7 @@ if __name__ == "__main__":
 	history = model.fit(X_train, y_train, epochs = 5, batch_size = batch_size, verbose = 'auto', validation_split=0.1)
 
 	# Save the model
-	model.save(dir_path + r"\models\Group81_model_NLP.h5")
+	model.save(dir_path + r"\models\Group81_NLP_model.h5")
 
 	# Print the final training accuracy
 	print('The final training accuracy is: {}'.format(history.history['accuracy'][-1]))

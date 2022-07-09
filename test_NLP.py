@@ -72,7 +72,7 @@ if __name__ == "__main__":
 	y_test = dataset.iloc[:,-1:]
 
 	# Load the saved model
-	path = dir_path + r"\models\Group81_model_NLP.h5"
+	path = dir_path + r"\models\Group81_NLP_model.h5"
 	model = keras.models.load_model(path)
 	print("Model loaded")
 
